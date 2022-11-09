@@ -24,6 +24,9 @@
             case 'payment':
                 include './products/payment.php';
                 break;
+            case 'product_list':
+                include './products/product_list.php';
+                break;
         }
     }
     else{

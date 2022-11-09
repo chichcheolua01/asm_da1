@@ -51,7 +51,7 @@
                 <div class="flex space-x-20">
                     <div class="flex items-center border border-purple-900 p-2 rounded-full">
                         <input type="text" name="search" class="outline-0 px-[10px]" placeholder="Tìm cc gì v?">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-purple-900 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-black font-bold ">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                         </svg>
                     </div>
@@ -64,16 +64,16 @@
 
 
             </div>
-            <hr>
+            <hr class="border-b-2 border-purple-900">
             <div class="flex justify-center">
-                <div class="w-full py-[60px] flex justify-between items-center">
-                    <div class="flex justify-between items-center relative w-full">
-                        <ul class="md:flex justify-between space-x-[52px] hidden items-center">
+                <div class="w-full py-[10px] flex justify-between items-center">
+                    <div class="flex justify-center items-center relative w-full">
+                        <ul class="flex justify-center space-x-[52px] items-center">
                             <li class="text-sm p-5 inline-block group">
                                 <a href="index.php?act=home">
                                     <div class="flex justify-center items-center space-x-3">
                                         <img src="../../image/menu1.png" alt="">
-                                        <p class="text-purple-900">THƯƠNG HIỆU</p>
+                                        <p class="text-black font-bold">THƯƠNG HIỆU</p>
                                     </div>
                                 </a>
                                 <div class="grid grid-cols-4 w-full p-5 absolute top-full left-0 bg-white shadow-2xl mt-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all duration-500 z--10">
@@ -113,7 +113,7 @@
                                 <a href="index.php?act=home">
                                     <div class="flex justify-center items-center space-x-3">
                                         <img src="../../image/menu2.png" alt="">
-                                        <p class="text-purple-900">Đồng hồ</p>
+                                        <p class="text-black font-bold">Đồng hồ</p>
                                     </div>
                                 </a>
 
@@ -154,7 +154,7 @@
                                 <a href="index.php?act=home">
                                     <div class="flex justify-center items-center space-x-3">
                                         <img src="../../image/menu3.png" alt="">
-                                        <p class="text-purple-900">Smartwatch</p>
+                                        <p class="text-black font-bold">Smartwatch</p>
                                     </div>
                                 </a>
 
@@ -195,7 +195,7 @@
                                 <a href="index.php?act=home">
                                     <div class="flex justify-center items-center space-x-3">
                                         <img src="../../image/menu4.png" alt="">
-                                        <p class="text-purple-900">Phụ kiện</p>
+                                        <p class="text-black font-bold">Phụ kiện</p>
                                     </div>
                                 </a>
 
@@ -236,7 +236,7 @@
                                 <a href="index.php?act=home">
                                     <div class="flex justify-center items-center space-x-3">
                                         <img class="w-[18px] h-auto" src="../../image/menu5.png" alt="">
-                                        <p class="text-purple-900">Bút</p>
+                                        <p class="text-black font-bold">Bút</p>
                                     </div>
                                 </a>
 
@@ -277,7 +277,7 @@
                                 <a href="index.php?act=home">
                                     <div class="flex justify-center items-center space-x-3">
                                         <img src="../../image/menu6.png" alt="">
-                                        <p class="text-purple-900">Tin tức</p>
+                                        <p class="text-black font-bold">Tin tức</p>
                                     </div>
                                 </a>
 
@@ -318,5 +318,6 @@
                     </div>
                 </div>
             </div>
+            <hr class="border-b-1 border-gray-300">
 
         </header>

@@ -8,57 +8,20 @@
     $user_query = "SELECT * FROM users";
     $users = getAll($user_query);
     include './header.php';
-    include './content.php';
-    var_dump($products);
+    
     //controllers
     if(isset($_GET['act']))
     {
         $act = $_GET['act'];
         switch($act)
         {
-        case 'product':
-            include "./products/index.php";
-            break;
-        case 'product_info':
-            include "./product_info.php";
-            break;
-        case 'add-product':
-            include "./products/add-product.php";
-            break;
-        case 'edit-product':
-            include "./products/edit-product.php";
-            break;
-        case 'category':
-            include "./categories/index.php";
-            break; 
-        case 'edit-category':
-            include "./categories/edit-category.php";
-            break;   
-        case 'add-category':
-            include './categories/add-category.php';
-            break;
-        case 'list-customer':
-            include './customers/list-customer.php';
-            break;
-        case 'list-comment':
-            include './comments/list-comment.php';
-            break;
-        case 'list-money':
-            include './sales/list-money.php';
-            break;
-        case 'login':
-            include './login.php';
-            break;
-        case 'signup':
-            include './signup.php';
-            break;
-        case 'cart':
-            include './cart/cart.php';
-            break;
-        default:
-            include './home.php';
-            break;
+            case 'product_info':
+                include './products/product_info.php';
+                break;
         }
+    }
+    else{
+        include './content.php';
     }
     include './footer.php';
 ?>

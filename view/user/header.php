@@ -76,9 +76,7 @@
                                         <p class="text-purple-900">THƯƠNG HIỆU</p>
                                     </div>
                                 </a>
-
-
-                                <div class="grid grid-cols-4 w-full p-5 absolute top-full left-0 bg-white shadow-2xl mt-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all duration-500 ">
+                                <div class="grid grid-cols-4 w-full p-5 absolute top-full left-0 bg-white shadow-2xl mt-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all duration-500 z--10">
                                     <ul class="p-2">
                                         <li class="block font-semibold text-xl mb-5">THƯƠNG HIỆU BÁN CHẠY</li>
                                         <hr>
@@ -317,12 +315,6 @@
                                 </div>
                             </li>
                         </ul>
-                        <div class="flex justify-between items-center space-x-8">
-                            <a href="controller/logout.php"><img class="w-[50px] h-auto rounded-full" src="../image/<?php echo $login_user['userImage'] ?>" alt=""></a>
-                        </div>
-                        <div>
-                            <img src="./image/" alt="">
-                        </div>
                     </div>
                 </div>
             </div>

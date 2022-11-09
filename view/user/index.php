@@ -18,6 +18,12 @@
             case 'product_info':
                 include './products/product_info.php';
                 break;
+            case 'cart':
+                include './products/cart.php';
+                break;
+            case 'payment':
+                include './products/payment.php';
+                break;
         }
     }
     else{

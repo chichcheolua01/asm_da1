@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <body class="">
 
   <!-- Product Hot -->
@@ -98,3 +99,5 @@
   </div>
   <!-- Why choose us  end-->
 </body>
+
+

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <body class="">
 
   <!-- Product Hot -->

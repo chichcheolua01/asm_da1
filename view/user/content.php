@@ -15,50 +15,19 @@
       </div>
     </div>
     <div class="grid mx-auto text-center grid-cols-4 gap-4 ">
+      <?php foreach ($products as $key => $item): ?>
       <div class="group">
-        <img src="images/dh.png" class="mb-10 group-hover:scale-105 duration-500" alt="">
+        <img src="../../image/<?php echo $item["productImage"] ?>" class="mb-10 group-hover:scale-105 duration-500" alt="">
         <div class="overflow-hidden relative">
-          <p class="font-semibold">DONG HO NAM QUAN DOI USE PRO</p>
-          <p class="font-thin text-sm line-through my-1">Giá 9.000.000 VND</p>
-          <p class="text-xl font-bold text-primary mb-10">GIA KM 9.000.000</p>
+          <p class="font-semibold"><?php echo $item['productName']?></p>
+          <p class="font-thin text-sm line-through my-1"><?php echo $item['productPrice']?></p>
+          <p class="text-xl font-bold text-primary mb-10"><?php echo $item['productPrice']?></p>
           <a href=""
             class="bg-primary text-white mt-2 p-2 px-3 w-52 left-12 rounded-3xl transform group-hover:bottom-0 group-hover:left-12 duration-500 absolute -bottom-16">THÊM
             VÀO GIỎ HÀNG</a>
         </div>
       </div>
-      <div class="group">
-        <img src="images/dh.png" class="mb-10 group-hover:scale-105 duration-500" alt="">
-        <div class="overflow-hidden relative">
-          <p class="font-semibold">DONG HO NAM QUAN DOI USE PRO</p>
-          <p class="font-thin text-sm line-through my-1">Giá 9.000.000 VND</p>
-          <p class="text-xl font-bold text-primary mb-10">GIA KM 9.000.000</p>
-          <a href=""
-            class="bg-primary text-white mt-2 p-2 px-3 w-52 left-12 rounded-3xl transform group-hover:bottom-0 group-hover:left-12 duration-500 absolute -bottom-16">THÊM
-            VÀO GIỎ HÀNG</a>
-        </div>
-      </div>
-      <div class="group ">
-        <img src="images/dh.png" class="mb-10 group-hover:scale-105 duration-500" alt="">
-        <div class="overflow-hidden relative">
-          <p class="font-semibold">DONG HO NAM QUAN DOI USE PRO</p>
-          <p class="font-thin text-sm line-through my-1">Giá 9.000.000 VND</p>
-          <p class="text-xl font-bold text-primary mb-10">GIA KM 9.000.000</p>
-          <a href=""
-            class="bg-primary text-white mt-2 p-2 px-3 w-52 left-12 rounded-3xl transform group-hover:bottom-0 group-hover:left-12 duration-500 absolute -bottom-16">THÊM
-            VÀO GIỎ HÀNG</a>
-        </div>
-      </div>
-      <div class="group">
-        <img src="images/dh.png" class="mb-10 group-hover:scale-105 duration-500" alt="">
-        <div class="overflow-hidden relative">
-          <p class="font-semibold">DONG HO NAM QUAN DOI USE PRO</p>
-          <p class="font-thin text-sm line-through my-1">Giá 9.000.000 VND</p>
-          <p class="text-xl font-bold text-primary mb-10">GIA KM 9.000.000</p>
-          <a href=""
-            class="bg-primary text-white mt-2 p-2 px-3 w-52 left-12 rounded-3xl transform group-hover:bottom-0 group-hover:left-12 duration-500 absolute -bottom-16">THÊM
-            VÀO GIỎ HÀNG</a>
-        </div>
-      </div>
+      <?php endforeach ?>
     </div>
   </div>
   <!-- Product Hot End -->
@@ -80,19 +49,19 @@
     </div>
     <div class="grid grid-cols-4 container gap-6 mx-auto pb-6 font-bold text-xl tracking-wide">
       <div class="flex items-center justify-evenly">
-        <img src="images/icon1.png" alt="">
+        <img src="../../image/icon1.png" alt="">
         <span>100% SẢN PHẨM <br> CHÍNH HÃNG</span>
       </div>
       <div class="flex items-center">
-        <img src="images/icon2.png" alt="">
+        <img src="../../image/icon2.png" alt="">
         <span>MIỄN PHÍ <br>VẬN CHUYỂN</span>
       </div>
       <div class="flex items-center">
-        <img src="images/icon3.png" alt="">
+        <img src="../../image/icon3.png" alt="">
         <span>THAY PIN MIỄN PHÍ<br>TRỌN ĐỜI</span>
       </div>
       <div class="flex items-center">
-        <img src="images/icon4.png" alt="">
+        <img src="../../image/icon4.png" alt="">
         <span>HỖ TRỢ TRẢ GÓP<br> TRẢ GÓP 0%</span>
       </div>
     </div>

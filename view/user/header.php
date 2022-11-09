@@ -90,9 +90,9 @@
                                     <ul class="p-2">
                                         <li class="block font-semibold text-xl mb-5">ĐỒNG HỒ CAO CẤP</li>
                                         <li class="block p-2 hover:bg-white hover:text-black cursor-pointer">PREDERIQUE CONSTANT</li>
-                                        <li class="block p-2 hover:bg-white hover:text-black cursor-pointer">Sub menu</li>
-                                        <li class="block p-2 hover:bg-white hover:text-black cursor-pointer">Sub menu</li>
-                                        <li class="block p-2 hover:bg-white hover:text-black cursor-pointer">Sub menu</li>
+                                        <li class="block p-2 hover:bg-white hover:text-black cursor-pointer">ORIENT</li>
+                                        <li class="block p-2 hover:bg-white hover:text-black cursor-pointer">PARKER</li>
+                                        <li class="block p-2 hover:bg-white hover:text-black cursor-pointer">CERTINA</li>
                                     </ul>
                                     <ul class="p-2">
                                         <li class="block font-semibold text-xl mb-5">Main memu</li>

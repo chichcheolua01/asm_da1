@@ -8,9 +8,9 @@
     $user_query = "SELECT * FROM users";
     $users = getAll($user_query);
     include './header.php';
-
+    include './content.php';
+    var_dump($products);
     //controllers
-
     if(isset($_GET['act']))
     {
         $act = $_GET['act'];

@@ -27,6 +27,9 @@
             case 'product_list':
                 include './products/product_list.php';
                 break;
+            default:
+                include './content.php';
+                break;
         }
     }
     else{

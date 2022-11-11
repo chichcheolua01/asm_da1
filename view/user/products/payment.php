@@ -75,7 +75,7 @@
                 </div>
                 <div>
                     <label for="note">Lưu ý khi nhận hàng</label> <br>
-                    <textarea name="note" class="border border-gray-300 rounded-3xl p-2 mt-2" cols="100%"
+                    <textarea name="note" class="border border-gray-300 rounded-3xl p-2 mt-2" cols="80"
                         rows="4"></textarea>
                 </div>
                 <!-- dow 2 end -->
@@ -86,31 +86,41 @@
         <!-- Box left -->
         <div class="h-1/2 relative shadow-[0px_0px_5px_1px_rgba(0,0,0,0.2)] mt-8 p-5 ">
             <div class="">
-                <div class="flex justify-evenly">
-                    <img src="../../image/dh.png" alt="" class="w-[100px]">
+                <div class="flex gap-x-1 justify-between">
+                    <img src="../../image/dongho1.png" alt="" class="w-[75px]">
                     <div class="">
-                        <p>ĐỒNG HỒ NỮ FESTINA F16620/1</p>
-                        <div class="border w-[100px] flex items-center justify-center rounded-2xl py-1 space-x-4">
+                        <p class="text-xs">ĐỒNG HỒ NỮ FESTINA F16620/1 skaskldjaskljdklas</p>
+                        <div class="border w-[100px] flex items-center justify-center rounded-2xl mt-4 py-1 space-x-4">
                             <span>-</span>
                             <span>1</span>
                             <span>+</span>
                         </div>
 
                     </div>
-                    <p>13133</p>
+                    <div class="flex items-start justify-start">
+                    <span class="mr-2 text-xs">131adasds33vnd</span>
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-purple-900">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </a>
+                    </div>
+
+
+
 
 
                 </div>
 
 
             </div>
-            <div class="border-t border-b py-4">
+            <div class="border-t border-b py-4 my-3">
                 <div class="flex justify-between items-center">
-                    <p>Tổng thanh toán</p>
+                    <p>Tổng tiền hàng</p>
                     <p>123123 d</p>
                 </div>
                 <div class="flex justify-between items-center">
-                    <p>Tổng thanh toán</p>
+                    <p>Vận chuyển</p>
                     <p>123123 d</p>
                 </div>
             </div>

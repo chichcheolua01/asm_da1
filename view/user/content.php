@@ -3,15 +3,8 @@
   <!-- Product Hot -->
   <div class="mx-auto max-w-screen-xl">
     <div class="flex justify-around items-center mb-7">
-<<<<<<< HEAD
-      <h2
-        class="text-xl tracking-widest text-gray-900 pb-2 underline underline-offset-8 decoration-2 decoration-primary grow">
-        SẢN PHẨM BÁN CHẠY
-      </h2>
-=======
       <h2 class="text-xl tracking-widest text-gray-900 pb-2 underline underline-offset-8 decoration-2 decoration-primary grow">
         SẢN PHẨM BÁN CHẠY</h2>
->>>>>>> f3909f45cbbe310c3fca0780b6db6e9f1aa55346
       <div class="space-x-3">
         <button class="bg-primary text-white p-2 px-3 rounded-3xl">ĐỒNG HỒ ĐEO TAY</button>
         <button class="bg-primary text-white p-2 px-3 rounded-3xl">ĐỒNG HỒ ĐEO TAY</button>
@@ -20,23 +13,6 @@
       </div>
     </div>
     <div class="grid mx-auto text-center grid-cols-4 gap-4 ">
-<<<<<<< HEAD
-      <?php foreach ($products as $key => $item): ?>
-      <div class="group">
-        <a href="./index.php?act=product_info&id=<?php echo $item["productId"]?>">
-        <img src="../../image/<?php echo $item["productImage"] ?>" class="mb-10 group-hover:scale-105 duration-500" alt="">
-        <div class="overflow-hidden relative flex flex-col justify-between">
-          <div>
-            <p class="font-semibold mb-1"><?php echo $item['productName']?></p>
-          </div>
-          <div>
-            <p class="font-thin text-sm line-through my-1 text-black">Giá: <?php echo $item['productPrice']?> <u>đ</u></p>
-            <p class="text-[19px] font-[500] text-primary mb-10 text-purple-900"><span class="text-sm">Giá KM:</span> <?php echo $item['productPrice']?> <u>đ</u></p>
-            <a href=""
-              class="bg-purple-900 ml-[-20px] text-white mt-2 p-2 px-3 w-52 left-12 rounded-3xl transform group-hover:bottom-0 group-hover:left-12 duration-300 absolute -bottom-16">THÊM
-              VÀO GIỎ HÀNG</a>
-          </div>
-=======
       <?php foreach ($products as $key => $item) : ?>
 
         <div class="group">
@@ -71,7 +47,6 @@
               </div>
             </div>
           </a>
->>>>>>> f3909f45cbbe310c3fca0780b6db6e9f1aa55346
         </div>
       <?php endforeach ?>
     </div>

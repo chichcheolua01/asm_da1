@@ -6,7 +6,8 @@
     <div class="flex justify-around items-center mb-7">
       <h2
         class="text-xl tracking-widest text-gray-900 pb-2 underline underline-offset-8 decoration-2 decoration-primary grow">
-        SẢN PHẨM BÁN CHẠY</h2>
+        SẢN PHẨM BÁN CHẠY
+      </h2>
       <div class="space-x-3">
         <button class="bg-primary text-white p-2 px-3 rounded-3xl">ĐỒNG HỒ ĐEO TAY</button>
         <button class="bg-primary text-white p-2 px-3 rounded-3xl">ĐỒNG HỒ ĐEO TAY</button>
@@ -22,13 +23,13 @@
         <img src="../../image/<?php echo $item["productImage"] ?>" class="mb-10 group-hover:scale-105 duration-500" alt="">
         <div class="overflow-hidden relative flex flex-col justify-between">
           <div>
-            <p class="font-semibold"><?php echo $item['productName']?></p>
+            <p class="font-semibold mb-1"><?php echo $item['productName']?></p>
           </div>
           <div>
-            <p class="font-thin text-sm line-through my-1"><?php echo $item['productPrice']?></p>
-            <p class="text-xl font-bold text-primary mb-10"><?php echo $item['productPrice']?></p>
+            <p class="font-thin text-sm line-through my-1 text-black">Giá: <?php echo $item['productPrice']?> <u>đ</u></p>
+            <p class="text-[19px] font-[500] text-primary mb-10 text-purple-900"><span class="text-sm">Giá KM:</span> <?php echo $item['productPrice']?> <u>đ</u></p>
             <a href=""
-              class="bg-purple-900 text-white mt-2 p-2 px-3 w-52 left-12 rounded-3xl transform group-hover:bottom-0 group-hover:left-12 duration-500 absolute -bottom-16">THÊM
+              class="bg-purple-900 ml-[-20px] text-white mt-2 p-2 px-3 w-52 left-12 rounded-3xl transform group-hover:bottom-0 group-hover:left-12 duration-300 absolute -bottom-16">THÊM
               VÀO GIỎ HÀNG</a>
           </div>
         </div>

@@ -105,14 +105,7 @@
                         </svg>
                     </a>
                     </div>
-
-
-
-
-
                 </div>
-
-
             </div>
             <div class="border-t border-b py-4 my-3">
                 <div class="flex justify-between items-center">

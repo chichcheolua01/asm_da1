@@ -59,7 +59,9 @@
                         </svg>
                     </div>
                     <div class="flex space-x-10 items-center">
-                        <img src="../../image/user.svg" alt="">
+                        <a href="./index.php?act=signin">
+                            <img src="../../image/user.svg" alt="">
+                        </a>
                         <img src="../../image/wishlist.svg" alt="">
                         <button id="btnCart">
                             <img src="../../image/minicart.svg" alt="">

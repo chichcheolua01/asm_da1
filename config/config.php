@@ -2,5 +2,5 @@
 define("DB_HOST", "localhost");
 define("DB_USER", "root");
 define("DB_PASS", "");
-define("DB_NAME", "asm_da1");
+define("DB_NAME", "da1_asm");
 ?>

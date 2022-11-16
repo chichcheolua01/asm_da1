@@ -10,7 +10,6 @@
         <button class="bg-purple-900 text-white p-2 px-3 rounded-3xl">ĐỒNG HỒ ĐEO TAY</button>
         <button class="bg-purple-900 text-white p-2 px-3 rounded-3xl">ĐỒNG HỒ ĐEO TAY</button>
         <button class="bg-purple-900 text-white p-2 px-3 rounded-3xl">ĐỒNG HỒ ĐEO TAY</button>
-
       </div>
     </div>
     <div class="grid mx-auto text-center grid-cols-4 gap-4 ">
